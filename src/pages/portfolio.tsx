@@ -1,7 +1,8 @@
 import Navbar from "../components/Navbar";
 import Presentation from "../components/Presentation";
-import About from "../components/about";
-import Skills from "../components/skills";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Experience from "../components/Experience";
 export default function Portfolio() {
   return (
     <>
@@ -9,6 +10,7 @@ export default function Portfolio() {
       <Presentation />
       <About />
       <Skills />
+      <Experience />
     </>
   );
 }
