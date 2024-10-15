@@ -1,0 +1,15 @@
+export const rAssetdSC9473Jpg = "DSC_9473.jpg"; 
+export const rAssetexpressSvg = "express.svg"; 
+export const rAssetfigmaSvg = "figma.svg"; 
+export const rAssetgitSvg = "git.svg"; 
+export const rAsseticonButtonSvg = "Icon Button.svg"; 
+export const rAsseticonReactSvg = "icon-react.svg"; 
+export const rAssetjsSvg = "js.svg"; 
+export const rAssetmongoSvg = "mongo.svg"; 
+export const rAssetnextSvg = "next.svg"; 
+export const rAssetnodeSvg = "node.svg"; 
+export const rAssetreactSvg = "react.svg"; 
+export const rAssetsassSvg = "sass.svg"; 
+export const rAssettailwindSvg = "tailwind.svg"; 
+export const rAssettsSvg = "ts.svg"; 
+export const rAssetviteSvg = "vite.svg"; 

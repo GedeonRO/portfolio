@@ -1,10 +1,7 @@
-import './App.css'
-
+import "./App.css";
+import Portfolio from "./pages/portfolio";
 function App() {
-
-  return (
-  <div>bonjour</div>
-  )
+  return <Portfolio />;
 }
 
-export default App
+export default App;
