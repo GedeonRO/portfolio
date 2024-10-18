@@ -13,7 +13,7 @@ export default function Contact() {
     navigator.clipboard
       .writeText(copy)
       .then(() => {
-        toast.done("copy on clipboard");
+        toast.success("copy on clipboard");
       })
       .catch((err) => {
         console.error("Failed to copy email: ", err);
