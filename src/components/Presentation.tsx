@@ -1,7 +1,7 @@
 import { Location } from "iconsax-react";
 import { rAssetdSC9473Jpg, rAsseticonButtonSvg } from "../assets";
 
-export default function Presentation() {
+export default function Presentations() {
   return (
     <div className="flex py-[96px] gap-[48px] w-full items-start px-[80px] bg-[#fff]">
       <div className="flex flex-col gap-[48px]">

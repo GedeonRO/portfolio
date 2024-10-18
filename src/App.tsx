@@ -1,22 +1,22 @@
 import "./App.css";
-import About from "./components/About";
-import Contact from "./components/contact";
-import Experience from "./components/Experience";
+import Apropos from "./components/About";
+import Presentations from "./components/Presentation";
 import Navbar from "./components/Navbar";
-import Presentation from "./components/Presentation";
 import Competences from "./components/Skills";
-import Work from "./components/Work";
+import Experiences from "./components/Experience";
+import Works from "./components/Work";
+import ContactMe from "./components/contact";
 import { ToastContainer } from "react-toastify";
 function App() {
   return (
     <>
       <Navbar />
-      <Presentation />
-      <About />
+      <Presentations />
+      <Apropos />
       <Competences />
-      <Experience />
-      <Work />
-      <Contact />
+      <Experiences />
+      <Works />
+      <ContactMe />
       <ToastContainer />
     </>
   );
