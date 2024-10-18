@@ -4,7 +4,7 @@ import Contact from "./components/contact";
 import Experience from "./components/Experience";
 import Navbar from "./components/Navbar";
 import Presentation from "./components/Presentation";
-import Skills from "./components/Skills";
+import Competences from "./components/Skills";
 import Work from "./components/Work";
 import { ToastContainer } from "react-toastify";
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Presentation />
       <About />
-      <Skills />
+      <Competences />
       <Experience />
       <Work />
       <Contact />
