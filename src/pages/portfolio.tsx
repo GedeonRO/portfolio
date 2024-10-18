@@ -4,6 +4,7 @@ import About from "../components/About";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 import Work from "../components/Work";
+import Contact from "../components/contact";
 export default function Portfolio() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Portfolio() {
       <Skills />
       <Experience />
       <Work />
+      <Contact />
     </>
   );
 }

@@ -10,6 +10,7 @@ export const rAssetnextSvg = "next.svg";
 export const rAssetnodeSvg = "node.svg"; 
 export const rAssetreactSvg = "react.svg"; 
 export const rAssetsassSvg = "sass.svg"; 
+export const rAssetscreenshot59Png = "Screenshot (59).png"; 
 export const rAssettailwindSvg = "tailwind.svg"; 
 export const rAssettsSvg = "ts.svg"; 
 export const rAssetviteSvg = "vite.svg"; 
