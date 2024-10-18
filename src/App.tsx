@@ -1,10 +1,22 @@
 import "./App.css";
-import Portfolio from "./pages/portfolio";
+import About from "./components/About";
+import Contact from "./components/contact";
+import Experience from "./components/Experience";
+import Navbar from "./components/Navbar";
+import Presentation from "./components/Presentation";
+import Skills from "./components/Skills";
+import Work from "./components/Work";
 import { ToastContainer } from "react-toastify";
 function App() {
   return (
     <>
-      <Portfolio />
+      <Navbar />
+      <Presentation />
+      <About />
+      <Skills />
+      <Experience />
+      <Work />
+      <Contact />
       <ToastContainer />
     </>
   );
