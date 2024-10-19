@@ -2,7 +2,7 @@ import { Call, Copy, Send2 } from "iconsax-react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export default function ContactMe() {
+export default function Contact() {
   const email = "gedeonbenoit24@gmail.com";
 
   const handleSendClick = () => {

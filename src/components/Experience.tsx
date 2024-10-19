@@ -1,4 +1,4 @@
-export default function Experiences() {
+export default function Experience() {
   return (
     <div className="px-[80px] py-[96px] bg-gray-50 w-full items-center flex">
       <div className="flex flex-col gap-[48px] items-center w-full px-[32px]">

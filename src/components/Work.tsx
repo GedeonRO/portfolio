@@ -1,6 +1,6 @@
 import { rAssetscreenshot59Png } from "../assets";
 
-export default function Works() {
+export default function Work() {
   return (
     <div className="bg-[#fff] px-[80px] py-[96px] w-full items-center">
       <div className="flex flex-col gap-[48px] px-[32px] w-full items-center">

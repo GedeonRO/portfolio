@@ -1,4 +1,4 @@
-export default function Apropos() {
+export default function About() {
   return (
     <div className="px-[80px] bg-gray-50 py-[96px] flex items-center w-full">
       <div className="flex flex-col gap-[48px] px-[32px] items-center w-full">

@@ -13,7 +13,7 @@ import {
   rAssettsSvg,
 } from "../assets";
 
-export default function Competences() {
+export default function Skills() {
   return (
     <div className="px-[80px] py-[96px] items-center w-full flex">
       <div className="flex flex-col gap-[48px] px-[32px] w-full">
