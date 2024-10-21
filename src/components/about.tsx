@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="px-[20px] md:px-[80px] bg-gray-50 py-[48px] md:py-[96px] flex items-center w-full">
+    <div id="about" className="px-[20px] md:px-[80px] bg-gray-50 py-[48px] md:py-[96px] flex items-center w-full">
       <div className="flex flex-col gap-[48px] md:px-[32px] items-center w-full">
         <span className="bg-gray-200 px-[20px] py-[4px] rounded-[12px]">
           About me

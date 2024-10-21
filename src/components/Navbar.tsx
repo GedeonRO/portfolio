@@ -3,6 +3,12 @@ import { useState } from "react";
 
 export default function Navbar() {
   const [isShow, setShow] = useState(false);
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       <div className="flex w-full justify-between py-[32px] items-center px-[20px] md:px-[80px] bg-[#fff]">
@@ -10,10 +16,26 @@ export default function Navbar() {
           <span className="font-bold text-3xl text-nowrap">{"<Dev />"}</span>
         </div>
         <div className="hidden md:flex gap-[24px] items-center">
-          <span className="cursor-pointer hover:font-medium">About</span>
-          <span className="cursor-pointer hover:font-medium">Work</span>
-          <span className="cursor-pointer hover:font-medium">Testimonal</span>
-          <span className="cursor-pointer hover:font-medium">Contact</span>
+          <span
+            className="cursor-pointer hover:font-medium"
+            onClick={() => scrollToSection("about")}>
+            About
+          </span>
+          <span
+            className="cursor-pointer hover:font-medium"
+            onClick={() => scrollToSection("skills")}>
+            Skills
+          </span>
+          <span
+            className="cursor-pointer hover:font-medium"
+            onClick={() => scrollToSection("experience")}>
+            Experiences
+          </span>
+          <span
+            className="cursor-pointer hover:font-medium"
+            onClick={() => scrollToSection("contact")}>
+            Contact
+          </span>
           <button className="bg-[#000] text-[#fff] rounded-[8px] px-[16px] py-[6px] transition ease-in-out duration-500 hover:bg-[#fff] hover:text-[#000] border ">
             Download Cv
           </button>
@@ -25,10 +47,10 @@ export default function Navbar() {
       <div>
         {isShow && (
           <div className="grid grid-cols-[0.45fr_1.65fr] bg-[#5150509c] fixed right-0 top-0 w-full h-full z-[1000]">
-            <div className="px-12 py-16 z-20 " onClick={() => setShow(false)}>
+            <div className="px-4 py-16 z-20 " onClick={() => setShow(false)}>
               <CloseCircle size="32" color="#fff" />
             </div>
-            <div className=" flex flex-col text-[#fff] gap-[24px] right-0  top-0 bg-neutral-900  h-full p-12 pb-2 rounded-s-2xl">
+            <div className=" flex flex-col text-[#fff] gap-[24px] right-0  top-0 bg-neutral-900  h-full px-8 py-12 pb-2 rounded-s-2xl">
               <span className="cursor-pointer hover:font-medium">About</span>
               <span className="cursor-pointer hover:font-medium">Work</span>
               <span className="cursor-pointer hover:font-medium">

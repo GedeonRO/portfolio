@@ -15,7 +15,7 @@ import {
 
 export default function Skills() {
   return (
-    <div className="px-[20px] md:px-[80px] py-[48px] md:py-[96px] items-center w-full flex">
+    <div id="skills" className="px-[20px] md:px-[80px] py-[48px] md:py-[96px] items-center w-full flex">
       <div className="flex flex-col gap-[48px] md:px-[32px] w-full">
         <div className="flex flex-col gap-[16px] items-center">
           <span className="bg-gray-200 px-[20px] py-[4px] rounded-[12px]">

@@ -21,7 +21,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="px-[20px] md:px-[80px] py-[48px] md:py-[96px] bg-gray-50 w-full items-center flex">
+    <div id="contact" className="px-[20px] md:px-[80px] py-[48px] md:py-[96px] bg-gray-50 w-full items-center flex">
       <div className="flex flex-col gap-[24px] md:gap-[48px] items-center w-full md:px-[32px]">
         <div className="flex flex-col gap-[16px] items-center md:w-[50%]">
           <span className="bg-gray-200 px-[20px] py-[4px] rounded-[12px]">
