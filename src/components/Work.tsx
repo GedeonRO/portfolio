@@ -2,19 +2,19 @@ import { rAssetscreenshot59Png } from "../assets";
 
 export default function Work() {
   return (
-    <div className="bg-[#fff] px-[80px] py-[96px] w-full items-center">
-      <div className="flex flex-col gap-[48px] px-[32px] w-full items-center">
+    <div className="bg-[#fff] px-[20px] md:px-[80px] py-[48px] md:py-[96px] w-full items-center">
+      <div className="flex flex-col gap-[48px] md:px-[32px] w-full items-center">
         <div className="flex flex-col gap-[16px] items-center">
           <span className="bg-gray-200 px-[20px] py-[4px] rounded-[12px]">
             Work
           </span>
-          <span>Some of the noteworthy projects I have built:</span>
+          <span className="text-center">Some of the noteworthy projects I have built:</span>
         </div>
-        <div className="w-full grid grid-cols-2 col-span-2 rounded-[12px] shadow-sm border">
-          <div className="p-[48px] bg-gray-50 col-span-1">
+        <div className="w-full xl:grid flex flex-col  xl:grid-cols-2 md:col-span-2 rounded-[12px]  shadow-sm border">
+          <div className="p-[24px] md:p-[48px]  bg-gray-50 col-span-1">
             <img src={rAssetscreenshot59Png} className="rounded-[8px]" alt="" />
           </div>
-          <div className="col-span-1 flex flex-col bg-[#fff] p-[48px] gap-[24px]">
+          <div className="col-span-1 flex flex-col bg-[#fff] p-[24px] md:p-[48px] gap-[24px]">
             <span className="font-semibold text-[18px]">
               Positivus landing page
             </span>
@@ -71,8 +71,8 @@ export default function Work() {
             </a>
           </div>
         </div>
-        <div className="w-full grid grid-cols-2 col-span-2 rounded-[12px] shadow-sm border">
-          <div className="col-span-1 flex flex-col bg-[#fff] p-[48px] gap-[24px]">
+        <div className="w-full xl:grid flex flex-col-reverse  xl:grid-cols-2 md:col-span-2 rounded-[12px]  shadow-sm border">
+          <div className="col-span-1 flex flex-col bg-[#fff] p-[24px] md:p-[48px] gap-[24px]">
             <span className="font-semibold text-[18px]">
               Positivus landing page
             </span>
@@ -128,7 +128,7 @@ export default function Work() {
               </svg>
             </a>
           </div>
-          <div className="p-[48px] bg-gray-50 col-span-1">
+          <div className="md:p-[48px] p-[24px] bg-gray-50 col-span-1">
             <img src={rAssetscreenshot59Png} className="rounded-[8px]" alt="" />
           </div>
         </div>

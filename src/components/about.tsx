@@ -1,12 +1,12 @@
 export default function About() {
   return (
-    <div className="px-[80px] bg-gray-50 py-[96px] flex items-center w-full">
-      <div className="flex flex-col gap-[48px] px-[32px] items-center w-full">
+    <div className="px-[20px] md:px-[80px] bg-gray-50 py-[48px] md:py-[96px] flex items-center w-full">
+      <div className="flex flex-col gap-[48px] md:px-[32px] items-center w-full">
         <span className="bg-gray-200 px-[20px] py-[4px] rounded-[12px]">
           About me
         </span>
 
-        <div className="flex w-full gap-[48px]">
+        <div className="flex w-full">
           <img src="" alt="" />
           <div className="flex flex-col gap-[24px]">
             <span className="font-semibold">

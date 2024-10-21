@@ -15,16 +15,16 @@ import {
 
 export default function Skills() {
   return (
-    <div className="px-[80px] py-[96px] items-center w-full flex">
-      <div className="flex flex-col gap-[48px] px-[32px] w-full">
+    <div className="px-[20px] md:px-[80px] py-[48px] md:py-[96px] items-center w-full flex">
+      <div className="flex flex-col gap-[48px] md:px-[32px] w-full">
         <div className="flex flex-col gap-[16px] items-center">
           <span className="bg-gray-200 px-[20px] py-[4px] rounded-[12px]">
             Skills
           </span>
-          <span>The skills, tools and technologies I am really good at:</span>
+          <span className="text-center">The skills, tools and technologies I am really good at:</span>
         </div>
         <div className="flex flex-col gap-[48px] w-full">
-          <div className="flex w-full justify-between">
+          <div className="flex flex-wrap gap-4  w-full justify-between">
             <img src={rAssettsSvg} alt="" />
             <img src={rAssetjsSvg} alt="" />
             <img src={rAssetreactSvg} alt="" />
@@ -35,7 +35,7 @@ export default function Skills() {
               <span className="text-[18px]" >React Native</span>
             </div>
           </div>
-          <div className="flex w-full justify-between">
+          <div className="flex flex-wrap gap-4 w-full justify-between">
             <img src={rAssetmongoSvg} alt="" />
             <img src={rAssetsassSvg} alt="" />
             <img src={rAssettailwindSvg} alt="" />

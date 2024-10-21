@@ -1,14 +1,14 @@
 export default function Experience() {
   return (
-    <div className="px-[80px] py-[96px] bg-gray-50 w-full items-center flex">
-      <div className="flex flex-col gap-[48px] items-center w-full px-[32px]">
+    <div className="px-[20px] md:px-[80px] py-[48px] md:py-[96px] bg-gray-50 w-full items-center flex">
+      <div className="flex flex-col gap-[48px] items-center w-full md:px-[32px]">
         <div className="flex flex-col gap-[16px] items-center">
           <span className="bg-gray-200 px-[20px] py-[4px] rounded-[12px]">
             Experience
           </span>
-          <span>Here is a quick summary of my most recent experiences:</span>
+          <span className="text-center">Here is a quick summary of my most recent experiences:</span>
         </div>
-        <div className="bg-[#fff] shadow-sm border rounded-[12px] p-[32px]  gap-[48px] items-start grid grid-cols-3 col-span-3">
+        <div className="bg-[#fff] shadow-sm border rounded-[12px] p-[32px] gap-[24px] w-full md:max-w-max  md:gap-[48px] items-start flex flex-col md:grid grid-cols-3 col-span-3">
           <span className="shrink-0 text-2xl font-bold col-span-1">AFI</span>
           <div className="flex flex-col gap-4 col-span-1">
             <span className="font-semibold text-xl">Web & Mobile App Dev</span>
@@ -34,7 +34,7 @@ export default function Experience() {
             May 2024 - Present
           </span>
         </div>
-        <div className="bg-[#fff] shadow-sm border rounded-[12px] p-[32px]  gap-[48px] items-start grid grid-cols-3 col-span-3">
+        <div className="bg-[#fff] shadow-sm border rounded-[12px] p-[32px] gap-[24px]  w-full md:max-w-max  md:gap-[48px] items-start flex flex-col md:grid grid-cols-3 col-span-3">
           <span className="shrink-0 text-2xl font-bold col-span-1">
             PENNY-GROUPE
           </span>
@@ -62,8 +62,8 @@ export default function Experience() {
             November 2023 - April 2024
           </span>
         </div>
-        <div className="bg-[#fff] shadow-sm border rounded-[12px] p-[32px]  gap-[48px] items-start grid grid-cols-3 col-span-3">
-          <span className="shrink-0 text-2xl font-bold col-span-1">
+        <div className="bg-[#fff] shadow-sm border rounded-[12px] p-[32px] gap-[24px] w-full md:max-w-max   md:gap-[48px] items-start flex flex-col md:grid grid-cols-3 col-span-3">
+          <span className="shrink-0 text-2xl font-bold col-span-1  ">
             KALAMAR
           </span>
           <div className="flex flex-col gap-4 col-span-1">

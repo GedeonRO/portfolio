@@ -21,13 +21,13 @@ export default function Contact() {
   };
 
   return (
-    <div className="px-[80px] py-[96px] bg-gray-50 w-full items-center flex">
-      <div className="flex flex-col gap-[48px] items-center w-full px-[32px]">
-        <div className="flex flex-col gap-[16px] items-center w-[50%]">
+    <div className="px-[20px] md:px-[80px] py-[48px] md:py-[96px] bg-gray-50 w-full items-center flex">
+      <div className="flex flex-col gap-[24px] md:gap-[48px] items-center w-full md:px-[32px]">
+        <div className="flex flex-col gap-[16px] items-center md:w-[50%]">
           <span className="bg-gray-200 px-[20px] py-[4px] rounded-[12px]">
             Contact
           </span>
-          <span className="text-center text-[20px]">
+          <span className="text-center text-[15px] md:text-[20px]">
             What’s next? Feel free to reach out to me if you're looking for a
             developer, have a query, or simply want to connect.
           </span>
@@ -39,7 +39,7 @@ export default function Contact() {
               className="cursor-pointer"
               size={24}
             />
-            <span className="text-[24px] font-semibold">
+            <span className=" text-[16px] md:text-[24px] font-semibold">
               gedeonbenoit24@gmail.com
             </span>
             <Copy
@@ -50,7 +50,7 @@ export default function Contact() {
           </div>
           <div className="flex gap-2 items-center">
             <Call className="cursor-pointer" size={24} />
-            <span className="text-[24px] font-semibold">+228 93653311</span>
+            <span className="text-[16px] md:text-[24px] font-semibold">+228 93653311</span>
             <Copy
               className="cursor-pointer"
               onClick={() => handleCopyClick("+228 93653311")}
@@ -58,8 +58,8 @@ export default function Contact() {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-[8px] items-center">
-          <span>You may also find me on these platforms!</span>
+        <div className="flex flex-col gap-[8px]  items-center">
+          <span className="text-center">You may also find me on these platforms!</span>
           <div className="flex gap-[16px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
