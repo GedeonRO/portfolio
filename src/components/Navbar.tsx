@@ -36,9 +36,12 @@ export default function Navbar() {
             onClick={() => scrollToSection("contact")}>
             Contact
           </span>
-          <button className="bg-[#000] text-[#fff] rounded-[8px] px-[16px] py-[6px] transition ease-in-out duration-500 hover:bg-[#fff] hover:text-[#000] border ">
+          <a
+            href="/Resume.pdf"
+            download="Resume.pdf"
+            className="bg-[#000] text-[#fff] rounded-[8px] px-[16px] py-[6px] transition ease-in-out duration-500 hover:bg-[#fff] hover:text-[#000] border ">
             Download Cv
-          </button>
+          </a>
         </div>
         <div className="flex md:hidden ">
           <HambergerMenu onClick={() => setShow(true)} />
